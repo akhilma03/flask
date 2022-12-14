@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+        {% if isActive %}
+        <h1>
+        hello {{usr}}
+    </h1>
+        {% else %}
+        <h2>No User Found</h2>
+        {% endif %}
+        {% endblock %}
